@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date:19.05.2025
+## Register Number: 212224230179
+## Name:NAUSHEEN FATHIMA A 
 ## Problem Title
 Implementation of the Alumni Association platform for the University/Institute.
 ## Problem Description
@@ -10,16 +10,172 @@ Background: Alumni associations play a pivotal role in fostering lifelong connec
 Government of Gujarat
 
 ## Idea
+Build a digital Alumni Association Platform that connects past and present students of a university or institute. The platform will act as a bridge for networking, mentorship, job referrals, event management, and donations.
 
 
 ## Proposed Solution / Architecture Diagram
+💡 Modules and Features:
+1. User Management
+Alumni Sign Up/Login with verification by email or admin.
+
+Student/Faculty Access with limited permissions.
+
+Admin Panel to manage users, posts, and content.
+
+2. Alumni Directory
+Search by name, batch, branch, location, or company.
+
+Each alumni has a profile with:
+
+Name, photo, graduation year
+
+Professional details (job title, company, LinkedIn)
+
+Optional contact info
+
+3. Job & Internship Board
+Alumni can post job/internship openings.
+
+Students can browse and apply.
+
+Admin moderates posts.
+
+4. Mentorship Program
+Alumni can enroll as mentors.
+
+Students can send mentorship requests.
+
+Chat or video call integration (e.g., Zoom/Google Meet link sharing).
+
+5. Events & Announcements
+Post upcoming events: reunions, webinars, workshops.
+
+RSVP system for registration.
+
+Past event gallery with photos and videos.
+
+6. Forum/Chat Section
+Topic-based forums for discussions.
+
+Real-time group chat or message board.
+
+7. Donations and Contributions
+Alumni can donate to campus development, scholarships, etc.
+
+Track donation progress.
+
+Secure payment gateway integration.
+
 
 
 ## Use Cases
+1. Alumni Registration and Login
+Alumni sign up using email and graduation details.
+
+Admin verifies the account before access is granted.
+
+2. Student Access and Profile Creation
+Students log in using institutional email.
+
+Can view alumni profiles, job posts, and request mentorship.
+
+3. Search Alumni Directory
+Users can search for alumni based on:
+
+Name
+
+Batch
+
+Department
+
+Company or location
+
+4. Post and Browse Job Opportunities
+Alumni post job openings at their companies.
+
+Students view and apply through the platform.
+
+5. Mentorship Request
+Students send mentorship requests to alumni.
+
+Alumni accept and provide guidance through chat or calls.
+
+6. Event Management
+Admins and alumni create events (reunions, webinars).
+
+Users view details, RSVP, and join events.
+
+7. Donation and Fundraising
+Alumni contribute to scholarship or development funds.
+
+Payment gateway processes donation securely.
+
+8. Community Forum / Chat
+Users participate in discussion forums (e.g., career, tech, memories).
+
+Alumni share experiences; students ask questions.
+
 
 
 ## Technology Stack
 
+Frontend: React.js / HTML / CSS / Bootstrap
+
+Backend: Node.js / Express.js or Django
+
+Database: MongoDB / MySQL
+
+Authentication: JWT / Firebase Auth
+
+Hosting: AWS / Heroku / Firebase
+
+Payment Integration: Razorpay / Stripe
+
 
 ## Dependencies
+1. Frontend Dependencies:
+React.js / Angular / Vue.js — for building interactive user interfaces
 
+Bootstrap / Tailwind CSS — for styling and responsive design
+
+Axios / Fetch API — to handle HTTP requests to the backend
+
+React Router / Angular Router — for navigation between pages
+
+Form Validation Libraries — e.g., Formik, Yup (React) or Angular Forms
+
+2. Backend Dependencies:
+Node.js & Express.js / Django / Laravel — for server-side logic and APIs
+
+JWT (JSON Web Token) — for secure authentication
+
+bcrypt — for password hashing
+
+Mongoose (if using MongoDB) — ORM for database operations
+
+Sequelize (if using SQL DB) — ORM for SQL databases
+
+Nodemailer — for sending verification and notification emails
+
+Payment Gateway SDKs (e.g., Stripe, Razorpay) — for processing donations
+
+3. Database Dependencies:
+MongoDB / MySQL / PostgreSQL — to store user profiles, posts, events, donations, etc.
+
+Redis (optional) — for caching or session management
+
+4. DevOps / Hosting Dependencies:
+AWS / Heroku / Firebase — cloud hosting and deployment
+
+Git & GitHub / GitLab — version control and collaboration
+
+Docker (optional) — containerization for consistent deployment environment
+
+5. Third-party APIs and Services:
+Google Maps API / OpenStreetMap — to show event locations or alumni addresses
+
+Email Services (SendGrid, Mailgun) — for transactional emails
+
+Chat APIs (Firebase Realtime Database / Socket.io) — for real-time chat functionality
+
+Video Call APIs (Zoom SDK, Jitsi Meet) — for virtual mentorship sessions
